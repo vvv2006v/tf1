@@ -2,7 +2,7 @@ provider "aws" {
   #  region = "eu-west-3"
   region = "us-east-1"
 }
-
+#11
 resource "aws_vpc" "myapp-vpc" {
     cidr_block = var.vpc_cidr_block
     tags = {
